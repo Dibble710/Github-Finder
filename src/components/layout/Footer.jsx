@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 function Footer() {
   const footerYear = new Date().getFullYear();
   return (
@@ -19,10 +17,16 @@ function Footer() {
         <p>Copyright &copy; {footerYear} All rights and lefts reserved</p>
         <p>
           Coded by
-          <a href="https://www.tylerantoni.com" className="text-primary font-bold" target='_blank'>
+          <a
+            href="https://www.tylerantoni.com"
+            className="text-primary font-bold"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             Tyler Antoni
-          </a>
+          </a>{" "}
+          using daisyUI and React.
         </p>
       </div>
     </footer>
