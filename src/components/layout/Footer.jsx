@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   const footerYear = new Date().getFullYear();
   return (
-    <footer className="footer p-5 bg-gray-700 text-primary-content footer-center">
+    <footer className="footer p-5 bg-neutral text-neutral-content footer-center">
       <div>
         <svg
           width="50"
@@ -19,10 +19,10 @@ function Footer() {
         <p>Copyright &copy; {footerYear} All rights and lefts reserved</p>
         <p>
           Coded by
-          <Link to="/" className="text-blue-500">
+          <a href="https://www.tylerantoni.com" className="text-primary font-bold" target='_blank'>
             {" "}
             Tyler Antoni
-          </Link>
+          </a>
         </p>
       </div>
     </footer>
