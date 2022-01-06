@@ -80,7 +80,7 @@ function User() {
               {location && (
                 <div className="stat">
                   <div className="stat-title text-md">Location</div>
-                  <div className="text-lg stat-value text-accent">
+                  <div className="text-lg stat-value">
                     {location}
                   </div>
                 </div>
