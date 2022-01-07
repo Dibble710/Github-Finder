@@ -39,7 +39,7 @@ function User() {
     <>
       <div className="w-full mx-auto lg:w-10/12">
         <div className="mb-4">
-          <Link to="/" className="btn btn-outline">
+          <Link to="/" className="btn glass">
             Back to Search
           </Link>
         </div>
@@ -47,7 +47,7 @@ function User() {
           <div className="custom-card-image mb-6 md:mb-0">
             <div className="rounded-lg shadow-xl card image-full">
               <figure>
-                <img src={avatar_url} alt="Profile Image" />
+                <img src={avatar_url} alt="Profile" />
               </figure>
               <div className="card-body justify-end">
                 <h2 className="card-title mb-0">{name}</h2>
@@ -70,7 +70,7 @@ function User() {
                   href={html_url}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-outline"
+                  className="btn btn-primary"
                 >
                   Visit GitHub Profile
                 </a>
