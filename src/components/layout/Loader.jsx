@@ -1,14 +1,9 @@
-import Spinner from "./assets/loader.gif";
+
 
 function Loader() {
   return (
-    <div className="w-100 mt-20">
-      <img
-        className="text-center mx-auto"
-        width={180}
-        src={Spinner}
-        alt="loading..."
-      />
+    <div className="grid content-center justify-items-center	">
+      <div class="kinetic"></div>
     </div>
   );
 }
