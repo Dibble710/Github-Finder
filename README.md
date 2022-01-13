@@ -1,1 +1,1 @@
-React Application where you can search through Github profiles and view stats, repos, and much more! Live link coming soon! 
+React Application where you can search through Github profiles and view stats, repos, and much more! Link to [live project](https://github-finder-phi-six.vercel.app/)!
